@@ -9,6 +9,7 @@ namespace CraftableLunarTools
 	{
 		public CraftableLunarTools()
 		{
+			
 		}
 
 		public override void Load()
