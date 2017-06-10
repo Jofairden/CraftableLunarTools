@@ -1,5 +1,5 @@
 author = Jofairden
-version = 0.1.1
+version = 0.1.2
 displayName = Craftable Lunar Tools
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*
 homepage = https://forums.terraria.org/index.php?threads/craftable-lunar-tools.55249/

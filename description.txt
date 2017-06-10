@@ -1,3 +1,5 @@
 Makes normally unobtainable lunar tools craftable.
 Crafted at the Ancient Manipulator.
 I'm open for suggestions on the crafting requirements.
+
+v0.1.2: compatible with tml 0.10

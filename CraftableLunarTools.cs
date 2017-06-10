@@ -55,7 +55,7 @@ namespace CraftableLunarTools
 		public const short LunarBar = 3467;
 		public const short AncientManipulator = 412;
 
-		public static void MakeRecipe(this ModRecipe recipe, short fragmentType, int fragmentAmount, int barAmount)
+		public static void MakeRecipe(ModRecipe recipe, short fragmentType, int fragmentAmount, int barAmount)
 		{
 			recipe.AddIngredient(fragmentType, fragmentAmount);
 			recipe.AddIngredient(LunarBar, barAmount);
@@ -81,25 +81,25 @@ namespace CraftableLunarTools
 		{
 			// Solar Flare Chainsaw
 			var recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentSolar, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentSolar, 12, 10);
 			recipe.SetResult(ItemID.SolarFlareChainsaw);
 			recipe.AddRecipe();
 
 			// Solar Flare Axe
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentSolar, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentSolar, 12, 10);
 			recipe.SetResult(ItemID.SolarFlareAxe);
 			recipe.AddRecipe();
 
 			// Solar Flare Drill
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentSolar, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentSolar, 12, 10);
 			recipe.SetResult(ItemID.SolarFlareDrill);
 			recipe.AddRecipe();
 
 			// Solar Flare Hammer
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentSolar, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentSolar, 12, 10);
 			recipe.SetResult(ItemID.SolarFlareHammer);
 			recipe.AddRecipe();
 		}
@@ -108,25 +108,25 @@ namespace CraftableLunarTools
 		{
 			// Nebula Chainsaw
 			var recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentNebula, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentNebula, 12, 10);
 			recipe.SetResult(ItemID.NebulaChainsaw);
 			recipe.AddRecipe();
 
 			// Nebula Axe
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentNebula, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentNebula, 12, 10);
 			recipe.SetResult(ItemID.NebulaAxe);
 			recipe.AddRecipe();
 
 			// Nebula Drill
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentNebula, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentNebula, 12, 10);
 			recipe.SetResult(ItemID.NebulaDrill);
 			recipe.AddRecipe();
 
 			// Nebula Hammer
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentNebula, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentNebula, 12, 10);
 			recipe.SetResult(ItemID.NebulaHammer);
 			recipe.AddRecipe();
 		}
@@ -136,25 +136,25 @@ namespace CraftableLunarTools
 		{
 			// Vortex Chainsaw
 			var recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentVortex, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentVortex, 12, 10);
 			recipe.SetResult(ItemID.VortexChainsaw);
 			recipe.AddRecipe();
 
 			// Vortex Axe
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentVortex, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentVortex, 12, 10);
 			recipe.SetResult(ItemID.VortexAxe);
 			recipe.AddRecipe();
 
 			// Vortex Drill
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentVortex, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentVortex, 12, 10);
 			recipe.SetResult(ItemID.VortexDrill);
 			recipe.AddRecipe();
 
 			// Vortex Hammer
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentVortex, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentVortex, 12, 10);
 			recipe.SetResult(ItemID.VortexHammer);
 			recipe.AddRecipe();
 		}
@@ -163,25 +163,25 @@ namespace CraftableLunarTools
 		{
 			// Stardust Chainsaw
 			var recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentStardust, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentStardust, 12, 10);
 			recipe.SetResult(ItemID.StardustChainsaw);
 			recipe.AddRecipe();
 
 			// Stardust  Axe
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentStardust, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentStardust, 12, 10);
 			recipe.SetResult(ItemID.StardustAxe);
 			recipe.AddRecipe();
 
 			// Stardust Drill
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentStardust, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentStardust, 12, 10);
 			recipe.SetResult(ItemID.StardustDrill);
 			recipe.AddRecipe();
 
 			// Stardust Hammer
 			recipe = new ModRecipe(mod);
-			recipe.MakeRecipe(ItemID.FragmentStardust, 12, 10);
+			MakeRecipe(recipe, ItemID.FragmentStardust, 12, 10);
 			recipe.SetResult(ItemID.StardustHammer);
 			recipe.AddRecipe();
 		}
